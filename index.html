@@ -11,10 +11,10 @@
     <div class="container-fluid p-4">
         <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-10 bg-secondary rounded-top-5 p-0" style="height: 100vh;">
+            <div class="col-md-10 bg-secondary rounded-5 p-0" style="height: 1000vh;">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-2 bg-light rounded-top-5" style="height: 100vh;">
+                        <div class="col-md-2 bg-light rounded-start-5" style="height:1000vh;">
                             <!--Początek navbaru-->
                             <div class="btn-group-vertical pt-4 pb-4" role="group" aria-label="Vertical button group">
                                 <div class="btn-group" role="group">
@@ -42,7 +42,37 @@
                               </div>
                               <!--Koniec navbaru-->
                         </div>
-                        <div class="col-md-10"><!--Reszta--></div>
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="input-group pt-3">
+                                        <input type="search" class="form-control" placeholder="Wyszukaj" aria-label="Search" aria-describedby="search-addon" />
+                                      </div>
+                                </div>
+                                <div class="col-md-3"><!--Puste miejsce--></div>
+                                <div class="col-md-5 pt-3 d-flex justify-content-around">
+                                    <button type="button" class="btn btn-secondary position-relative">
+                                        Zadania nia dziś
+                                        <span class="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-danger">
+                                          5
+                                          <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                      </button>
+                                      <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Witaj Marcin
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Moje Konto</a></li>
+                                          <li><a class="dropdown-item" href="#">Wyloguj</a></li>
+                                        </ul>
+                                      </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
                     </div>
                 </div>
             </div>
